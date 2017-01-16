@@ -25,6 +25,11 @@ td {
 	background-color: white
 }
 
+ul.data button {
+	background-color: orange;
+	color:black;
+}
+
 ul.navbar {
 	list-style-type: none;
 	padding: 0;
