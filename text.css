@@ -14,6 +14,23 @@ button {
 	background-color:black;
 }
 
+table.main {
+    border-style: outset;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+table[Attributes Style] {
+    width: 100%;
+    border-spacing: 0px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
 th {
 	color: #452400;
 	font-family: "sans serif"
