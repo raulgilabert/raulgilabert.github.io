@@ -14,6 +14,13 @@ button {
 	background-color:black;
 }
 
+table.yellow{
+    border-style: outset;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: yellow
+}
+
 table.main {
     border-style: outset;
     border-color: #000000;
