@@ -22,6 +22,25 @@ button {
 	background-color:black;
 }
 
+ul.redirects{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 300px
+}
+
+ul.redirects li {
+	background: #008781;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 30px solid black
+}
+
+ul.redirects a {
+	text-decoration: none
+}
+
 table.games{
 	width:100%;
     border-style: outset;
