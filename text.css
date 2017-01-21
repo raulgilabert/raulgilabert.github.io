@@ -27,7 +27,7 @@ ul.redirects{
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	width: 300px
+	width: 325px
 }
 
 ul.redirects li {
@@ -99,7 +99,7 @@ ul.navbar {
 	width: 9em }
 
 ul.navbar li {
-	background: green;
+	background: #8aed00;
 	margin: 0.5em 0;
 	padding: 0.3em;
 	border-right: 1em solid black }
