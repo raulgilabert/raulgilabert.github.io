@@ -13,13 +13,12 @@ td.game_2 {
 
 body {
 	font-family: "helvetica";
-	
+	background: url(https://raulgilabert.github.io/assets/alien_1.gif);
+	background-size:110px 85px
 }
 
 button {
 	font-family: "arial black";
-	color:white;
-	background-color:black;
 }
 
 ul.redirects{
@@ -73,6 +72,12 @@ table {
     table-layout: fixed;
 }
 
+div.nav {
+	background-color: #84e1ad; 
+	width:15%; height:170px; 
+	position:absolute
+}
+
 th {
 	color: #452400;
 	font-family: "sans serif"
@@ -96,16 +101,20 @@ ul.navbar {
 	position: absolute;
 	top: 1em;
 	left: 1em;
-	width: 9em }
+	width: 80% }
 
 ul.navbar li {
 	background: #8aed00;
 	margin: 0.5em 0;
 	padding: 0.3em;
-	border-right: 1em solid black }
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black
+	 }
 
 ul.navbar a {
-	text-decoration: none }
+	text-decoration: all }
 
 a:link {
 	color: blue }
