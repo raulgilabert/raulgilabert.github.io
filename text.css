@@ -26,7 +26,7 @@ ul.redirects{
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	width: 325px
+	width: 10%
 }
 
 ul.redirects li {
@@ -74,7 +74,7 @@ table {
 
 div.nav {
 	background-color: #84e1ad; 
-	width:66%; height:170px; 
+	width:66%; height:225px; 
 	position:absolute
 }
 
