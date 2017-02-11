@@ -1,22 +1,24 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Raúl Gilabert</title> 
+		<title>Raúl Gilabert</title>
 		<link rel="stylesheet" href="text.css">
-		
+		<script type="text/javascript" src="brython.js"></script>
 	</head>
 
-	<body class="background">
-		<div class="nav" style="width:15%">
-			<ul class="navbar">
-				<li><a href="https://raulgilabert.github.io/index.html">Home</a></li>
-				<li><a href="https://raulgilabert.github.io/links/index.html">Links</a></li>
-				<li><a href="https://raulgilabert.github.io/gamesdeveloped/index.html">Videojuegos desarrollados</a></li>
-				<li><a href="https://raulgilabert.github.io/encuesta/index.html">Encuesta</a></li>
-			</ul>
-		</div>
+	<body class="background"  onload="brython()">
+		<header class="nav">
+			<nav>
+					<ul>
+						<li><a href="https://raulgilabert.github.io/index.html">Home</a></li>
+						<li><a href="https://raulgilabert.github.io/links/index.html">Links</a></li>
+						<li><a href="https://raulgilabert.github.io/gamesdeveloped/index.html">Videojuegos desarrollados</a></li>
+						<li><a href="https://raulgilabert.github.io/encuesta/index.html">Encuesta</a></li>
+					</ul>
+			</nav>
+		</header>
 
-		<div style="">
+		<div class="content">
 			<div align="center" style="background-color: white; width:70%; height:1000px; position:absolute; left:15%">
 				<div style="position:absolute; left:21% ; width: 90%; height:12% ; left:5%; top:5%">
 					<table class="main" cellpadding="0" cellspacing="0" width="100%">
@@ -25,8 +27,8 @@
 								<td>
 									<div style="background-color: #ffffba">
 										<div style="background-color: #ffff90">
-											<h2>Mi pagina web</h2>		
-										</div>		
+											<h2>Mi pagina web</h2>
+										</div>
 
 										<br>
 										Bienvenidos a mi página web personal.<br> <br>
@@ -45,8 +47,6 @@
 				</div>
 			</div>
 		</div>
-
-		<iframe src="fecha_hora.html" style="position:absolute;height:4% ; left:67.5%; border:0"></iframe>
-
+		<iframe src="fecha_hora.html" style="position:absolute;height:4% ; left:15%; border:0"></iframe>
 	</body>
 </html>

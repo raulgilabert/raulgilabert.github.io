@@ -1,6 +1,51 @@
-strong { 
+* {
+	margin: 0;
+	padding: 0
+}
+
+div.content{
+	padding-top:65px
+}
+
+header.nav {
+	 position:fixed;
+	 z-index:100;
+	 background: rgba(89, 89, 89, 10);
+	 width:100%;
+	 border: 3px solid black
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #3ead47;
+}
+
+
+
+strong {
 	font-family: "arial";
-	color: #007bff; 
+	color: #007bff;
 }
 
 td.game_1 {
@@ -73,8 +118,8 @@ table {
 }
 
 div.nav {
-	background-color: #84e1ad; 
-	width:66%; height:225px; 
+	background-color: #84e1ad;
+	width:66%; height:225px;
 	position:absolute
 }
 
@@ -93,25 +138,6 @@ ul.data button {
 	background-color: orange;
 	color:black;
 }
-
-ul.navbar {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	position: absolute;
-	top: 1em;
-	left: 1em;
-	width: 80% }
-
-ul.navbar li {
-	background: #8aed00;
-	margin: 0.5em 0;
-	padding: 0.3em;
-	border-right: 5px solid black;
-	border-left: 5px solid black;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black
-	 }
 
 ul.navbar a {
 	text-decoration:all }
