@@ -46,7 +46,7 @@
 			}
 		</style>
 
-		
+
 	</head>
 
 	<body>
@@ -56,10 +56,30 @@
 	    <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="600" height="600"></canvas>
 	</div>
 
+  <div>
+    <p>
+      Los controles para jugar a este juego son:
+      <ul>
+        <li>
+          Las flechas de dirección para moverse
+        </li>
+        <li>
+          La tecla enter para reinicial el nivel en la pantalla "game over"
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Este juego va de que tienes que esquivar las caras verdes que caen por la pantalla, comer las cerezas <br />
+      que te suman 100 puntos pero te hacen retroceder un poco y para recuperar la velocidad tienes que tomar <br />
+      la pocion que cae cada poco tiempo y la pocion te suma 500 puntos.
+    </p>
+  </div>
+
 	<button id="fullscreen" class="button">Fullscreen</button>
 
 	<!-- -->
-	  
+
 	  <script type='text/javascript' src="dmloader.js"></script>
 	  <script type='text/javascript' src="evasor gloton.js" async onload=""></script>
 	<!-- -->
@@ -69,7 +89,7 @@
 			archive_location_filter: function( path ) {
 				return ("archive" + path + "");
 			},
-            
+
 			splash_image: "splash_image.png",
 			custom_heap_size: 268435456
 		}
