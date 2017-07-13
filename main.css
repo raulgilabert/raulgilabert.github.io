@@ -1,11 +1,11 @@
 #li {
-   position: relative;
-   background-color: #000000;
-   list-style:none;
-   margin:2px;
-   padding:2px;
-   border:1px solid#eaeaea;
-   width: 75%;
+  position: relative;
+  background-color: #000000;
+  list-style:none;
+  margin:2px;
+  padding:2px;
+  border:1px solid#eaeaea;
+  width: 75%;
 }
 
 #a:link {color:white;}
@@ -15,58 +15,72 @@
 #a:active {color:blue;}
 
 #a {
-   text-decoration: none
+  text-decoration: none
+}
 
+section {
+  overflow: auto;
+  padding-bottom: 60px;
+  /* Definimos un padding superior */
+  padding-top:60px;
 }
 
 #container {
-   min-height:100%;
-   position:relative;
+  min-height:100%;
+  position:relative;
 }
 #body {
-   padding-top:60px;
-   margin-bottom:60px;   /* Height of the footer */
-   font-family: Sans-serif
+  min-height:100%;
+  font-family: Sans-serif
 }
 #footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   background-color: #d3d3d3;
-   height:60px;   /* Height of the footer */
+  position: relative;
+  margin-top: -50px;
+  height: 40px;
+  padding:5px 0px;
+  clear: both;
+  text-align: center
 }
+
 #body #content {
-   position: absolute;
-   left: 150px;
-   right: 150px;
-   background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 150px;
+  right: 150px;
+  background-color: rgba(0,0,0,0.5);
 }
+
+#body #content #text {
+  margin-bottom:20px; 
+  margin-left:20px; 
+  margin-right:20px
+}
+
 #body #left {
-   position: absolute;
-   left:0;
-   width: 150px;
-   background-color: rgba(0,0,0,0.25);
+  position: absolute;
+  left:0;
+  width: 150px;
+  background-color: rgba(0,0,0,0.25);
 }
 #body #right {
-   position: absolute;
-   right:0;
-   width: 150px;
-   background-color: rgba(0,0,0,0.25);
+  position: absolute;
+  right:0;
+  width: 150px;
+  background-color: rgba(0,0,0,0.25);
 }
 
 #body #left #li {
-   position: relative;
-   left: 0
+  position: relative;
+  left: 0
 }
 #body #right #li {
-   position: relative;
-   left: 18%
+  position: relative;
+  left: 18%
 }
 
 h1 {
-   position: relative;
-   width:50%;
-   background-color: rgba(234,234,234,0.5);
+  position: relative;
+  width:50%;
+  background-color: rgba(234,234,234,0.5);
 
 }
 
@@ -112,4 +126,9 @@ nav ul li:hover {
 }
 .contenido {
   padding-top: 80px;
+}
+
+.define {
+  width:960px;
+  margin:0 auto;
 }
