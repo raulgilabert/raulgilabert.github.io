@@ -44,14 +44,15 @@ section {
 
 #body #content {
   position: absolute;
+  top: 150px;
   left: 150px;
   right: 150px;
   background-color: rgba(0,0,0,0.5);
 }
 
 #body #content #text {
-  margin-bottom:20px; 
-  margin-left:20px; 
+  margin-bottom:20px;
+  margin-left:20px;
   margin-right:20px
 }
 
