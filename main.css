@@ -44,7 +44,7 @@ section {
 
 #body #content {
   position: absolute;
-  top: 55px;
+  margin-top: 55px;
   left: 150px;
   right: 150px;
   background-color: rgba(0,0,0,0.5);
