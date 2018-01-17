@@ -1,0 +1,43 @@
+[project]
+title = Laberintos
+version = 0.7.2
+write_log = 0
+compress_archive = 1
+custom_resources = main/json/
+
+[bootstrap]
+max_instance_count = 4096
+
+[bootstrap]
+main_collection = /main/collection/main.collectionc
+
+[input]
+game_binding = /input/game.input_bindingc
+use_accelerometer = 0
+
+[display]
+width = 354
+height = 266
+variable_dt = 1
+high_dpi = 1
+
+[physics]
+scale = 0.02
+debug = 0
+max_collisions = 128
+max_contacts = 256
+
+[script]
+shared_state = 1
+
+[sprite]
+max_count = 2048
+
+[tracking]
+app_id = 4E1B0B4A54BF5929
+
+[graphics]
+max_draw_calls = 4096
+
+[profiler]
+track_cpu = 1
