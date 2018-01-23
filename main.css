@@ -58,6 +58,7 @@ section {
 
 #body #left {
   position: absolute;
+  top: 55px;
   left:0;
   width: 150px;
   background-color: rgba(0,0,0,0.25);
@@ -80,9 +81,10 @@ section {
 
 h1 {
   position: relative;
-  width:50%;
+  left: 25%;
+  text-align: center;
+  width: 50%;
   background-color: rgba(234,234,234,0.5);
-
 }
 
 * {
