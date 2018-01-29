@@ -1,14 +1,12 @@
 [project]
 title = Laberintos
-version = 0.7.2
+version = 0.8.1
 write_log = 0
 compress_archive = 1
 custom_resources = main/json/
 
 [bootstrap]
 max_instance_count = 4096
-
-[bootstrap]
 main_collection = /main/collection/main.collectionc
 
 [input]
@@ -41,3 +39,7 @@ max_draw_calls = 4096
 
 [profiler]
 track_cpu = 1
+
+[collection]
+max_instances = 8192
+
