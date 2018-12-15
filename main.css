@@ -3,5 +3,12 @@
 	left: 15%;
 	top: 15%;
 	width: 70%;
-	background-color: #D4D4D4
+	background-color: #D4D4D4;
+}
+
+p {
+	font-family: "Verdana";
+	width: 90%;
+	position: relative;
+	left: 5%;
 }

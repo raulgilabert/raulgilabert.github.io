@@ -1,0 +1,74 @@
+[project]
+title = Laberintos
+version = 0.18
+write_log = 1
+compress_archive = 1
+custom_resources = main/json/
+
+[bootstrap]
+max_instance_count = 4096
+main_collection = /main/collection/main.collectionc
+
+[input]
+game_binding = /input/game.input_bindingc
+use_accelerometer = 0
+
+[display]
+width = 354
+height = 266
+variable_dt = 1
+high_dpi = 1
+
+[physics]
+scale = 0.02
+max_collisions = 128
+max_contacts = 256
+world_count = 5
+debug = 0
+
+[script]
+shared_state = 1
+
+[sprite]
+max_count = 2048
+
+[tracking]
+app_id = 4E1B0B4A54BF5929
+
+[graphics]
+max_draw_calls = 4096
+
+[profiler]
+track_cpu = 1
+
+[collection]
+max_instances = 8192
+
+[ios]
+app_icon_57x57 = /main/images/png/apple-touch-icon-57x57.png
+app_icon_72x72 = /main/images/png/apple-touch-icon-72x72.png
+app_icon_76x76 = /main/images/png/apple-touch-icon-76x76.png
+app_icon_114x114 = /main/images/png/apple-touch-icon-114x114.png
+app_icon_120x120 = /main/images/png/apple-touch-icon-120x120.png
+app_icon_144x144 = /main/images/png/apple-touch-icon-144x144.png
+app_icon_152x152 = /main/images/png/apple-touch-icon-152x152.png
+app_icon_167x167 = /main/images/png/apple-touch-icon-167x167.png
+app_icon_180x180 = /main/images/png/apple-touch-icon-180x180.png
+launch_image_320x480 = /main/images/png/LaunchImage~iphone-320x480.png
+launch_image_640x960 = /main/images/png/LaunchImage~iphone_640x960.png
+launch_image_640x1136 = /main/images/png/LaunchImage-568h@2x~iphone_640x1136.png
+launch_image_750x1334 = /main/images/png/LaunchImage-750@2x~iphone6-portrait_750x1334.png
+launch_image_1334x750 = /main/images/png/LaunchImage-750@2x~iphone6-landscape_1334x750.png
+launch_image_768x1024 = /main/images/png/LaunchImage-Portrait~ipad_768x1024.png
+launch_image_1536x2048 = /main/images/png/LaunchImage-Portrait@2x~ipad_1536x2008.png
+launch_image_1024x768 = /main/images/png/LaunchImage-Landscape~ipad_1024x768.png
+launch_image_1242x2208 = /main/images/png/LaunchImage-1242@3x~iphone6s-portrait_1242x2208.png
+launch_image_2208x1242 = /main/images/png/LaunchImage-1242@3x~iphone6s-landscape_2208x1242.png
+launch_image_2048x1536 = /main/images/png/LaunchImage-Landscape@2x~ipad_2048x1536.png
+launch_image_2048x2732 = /main/images/png/splash_2048x1732.png
+launch_image_2732x2048 = /main/images/png/splash_1732x2048.png
+launch_image_1125x2436 = /main/images/png/splash_1125x2436.png
+launch_image_2436x1125 = /main/images/png/splash_2436x1125.png
+pre_renderered_icons = 0
+bundle_identifier = com.isidrogilabert.laberintos
+
