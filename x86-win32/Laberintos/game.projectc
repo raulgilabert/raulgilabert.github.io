@@ -72,3 +72,6 @@ launch_image_2436x1125 = /main/images/png/splash_2436x1125.png
 pre_renderered_icons = 0
 bundle_identifier = com.isidrogilabert.laberintos
 
+[factory]
+max_count = 164
+
