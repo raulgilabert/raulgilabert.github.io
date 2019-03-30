@@ -36,7 +36,7 @@ trigger_overlap_capacity = 16
 
 [bootstrap]
 main_collection = /main/collection/main.collectionc
-render = /builtins/render/default.renderc
+render = /rendercam/rendercam.renderc
 max_instance_count = 4096
 
 [graphics]
